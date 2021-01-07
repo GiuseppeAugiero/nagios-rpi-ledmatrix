@@ -24,10 +24,13 @@ Insert in cron this line:
 */2 * * * * user python nagios-rpi-matrix.py > /dev/null
 
 USE
+
 Without parameters, the status of the matrix is updated:
 python nagios-rpi.matrix.py
 
+
 Parameters:
+
 --web create a html file with the matrix state
 --view print on screen the matrix state
 
